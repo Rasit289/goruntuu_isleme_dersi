@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
-from turtle import shape
+from numpy import zeros, shape
+from matplotlib import pyplot as plt
+import matplotlib.image as mpimg
 
 foto = cv2.imread("gul.jpg",0)
 
